@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         novaFrase = findViewById(R.id.btn_novaFrase);
-
+        frase = findViewById(R.id.txt_frase);
 
     }
 }
