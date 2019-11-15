@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         novaFrase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                numero = random.nextInt(12);
+                numero = random.nextInt(frases.length);
                 frase.setText(frases[numero]);
             }
         });
