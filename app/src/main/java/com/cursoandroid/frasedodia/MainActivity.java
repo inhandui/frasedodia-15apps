@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        novaFrase = findViewById(R.id.btn_novaFrase);
 
 
     }
