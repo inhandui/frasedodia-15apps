@@ -31,5 +31,13 @@ public class MainActivity extends AppCompatActivity {
         novaFrase = findViewById(R.id.btn_novaFrase);
         frase = findViewById(R.id.txt_frase);
 
+        novaFrase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                numero = random.nextInt(3);
+                frase.setText(frases[numero]);
+            }
+        });
+
     }
 }
