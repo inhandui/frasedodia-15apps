@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Frase Do dia</string>
     <string name="nova_frase">Nova Frase</string>
+    <string name="frase_padrao">Aperte em "nova frase" para ver a frase do dia</string>
 </resources>
